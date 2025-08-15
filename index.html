@@ -58,15 +58,18 @@
 
         <div id="ratings-modal" class="full-modal">
   <div class="full-modal-content">
+    <div class="text-background">
+
     <span class="close-rating">&times;</span>
     <h2>Rate Any Songs!</h2>
 
     <form id="ratings-form">
       <label>Song Name: <input type="text" name="songName" id ="songName" required></label><br><br>
       <label>Artist: <input type="text" name="artistName" id ="artistName" required></label><br><br>
-      <label>Rating (1–10): <input type="number" name="rating" id ="rating" min="1" max="10" required></label><br><br>
+      <label>Rating: <input type="number" name="rating" id ="rating" min="1" max="10" required></label><br><br>
       <button type="submit">Submit</button>
     </form>
+    </div>
 
     <div id="ratings-list">
   <h3>Your Fire Ratings</h3>

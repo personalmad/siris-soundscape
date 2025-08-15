@@ -183,11 +183,19 @@ body{
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
   text-align: center;
-  color: white;
+  color: rgb(170, 135, 194);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
 }
+
+.text-background {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block; /* makes it size to the text */
+}
+
 
 .full-modal-content input, .full-modal-content button {
   width: 80%;
@@ -200,10 +208,11 @@ body{
 }
 
 .full-modal-content button {
-  background-color: #6c5ce7;
+  background-color: rgb(194, 200, 254);
   color: white;
   cursor: pointer;
   border: none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .full-modal-content button:hover {
@@ -231,7 +240,7 @@ body{
 }
 
 #ratings-list li {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgb(194, 200, 254);
   padding: 8px 12px;
   margin: 6px 0;
   border-radius: 8px;
