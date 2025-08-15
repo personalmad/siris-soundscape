@@ -176,14 +176,17 @@ body{
 }
 
 .full-modal-content {
-  background: white;
+  background-image: url('train2.png');
   width: 90%;
   max-width: 700px;
   padding: 30px;
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
   text-align: center;
-  color: #222;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .full-modal-content input, .full-modal-content button {
@@ -219,7 +222,7 @@ body{
 #ratings-list {
   margin-top: 20px;
   text-align: center;
-  color: #333;
+  color: white;
 }
 
 #ratings-list ul {
